@@ -9,7 +9,7 @@
 <body>
     <link rel="import"  href="./external.html">
 <script>
-var external = document.querySelector("rel[import]").import;
+var external = document.querySelector("link[import]").import;
 // Grab DOM from doc.html's document.
 var text = external.querySelector("text.menu");
 document.body.appendChild(text.cloneNode(true));
